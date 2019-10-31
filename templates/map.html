@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Map of All Running Vehicles in MBTA</title>
+    <meta charset="utf-8" />
+     <!-- Reference to the Bing Maps SDK -->
+     <script type='text/javascript'
+     src='http://www.bing.com/api/maps/mapcontrol?callback=GetMap&key=ApNH0a_u_cgOqvisHXaEMdsAeQyMVAG1rvbhLfJ_Hc4atoHHJrsYrTDMJQRNbiQa' 
+     async defer></script>
+
+     <script type='text/javascript'>
+        var map, infobox;
+        function GetMap()
+        {
+            var key='ApNH0a_u_cgOqvisHXaEMdsAeQyMVAG1rvbhLfJ_Hc4atoHHJrsYrTDMJQRNbiQa';
+
+            var mapOption={credentials:key,center: new Microsoft.Maps.Location(42.360261, -71.095189), zoom :12};
+            map = new Microsoft.Maps.Map('#myMap', mapOption);
+
+            //Create an infobox at the center of the map but don't show it.
+            infobox = new Microsoft.Maps.Infobox(map.getCenter(), {
+                visible: false
+                });            
+    
+            //Assign the infobox to a map instance.
+            infobox.setMap(map);
+
+            {% for item in all_vehicles %}
+
+                var loc = new Microsoft.Maps.Location(
+                    {{ item["vehicle"]["position"]["latitude"] }} ,
+                    {{ item["vehicle"]["position"]["longitude"] }});
+
+                var pin = new Microsoft.Maps.Pushpin(loc);
+                //pin.myID = {{ item["id"]}};
+                pin.metadata = {
+                    id: '{{ item["id"]}}',
+                    tripid: '{{ item["vehicle"]["trip"]["trip_id"]}}',
+                    routeid: '{{ item["vehicle"]["trip"]["route_id"]}}',
+                    timestamp: '{{ item["vehicle"]["timestamp"] }}'
+                };
+                Microsoft.Maps.Events.addHandler(pin, 'click', pushpinClicked);
+                map.entities.push(pin);
+            {% endfor %}
+
+
+            //Add your post map load code here.
+
+
+                
+
+
+        }
+
+        
+
+        function pushpinClicked(e) {
+            if (e.target.metadata.id) {
+                
+                infobox.setOptions({
+                    location:  e.target.getLocation(),
+                    title: "vehicle Id: " + e.target.metadata.id,
+                    description: "<a href='http://127.0.0.1:5000/gettrip?tripid=" + encodeURIComponent(e.target.metadata.tripid) + "'> tripid : " + e.target.metadata.tripid + "</a> routeid: " + e.target.metadata.routeid + " time: " + convertTime(parseInt(e.target.metadata.timestamp)) ,
+                    visible: true
+                });
+            }
+        }
+
+
+        function convertTime(unixTimestamp) { 
+  
+            // convert to milliseconds 
+            // and then create a new Date object 
+            dateObj = new Date(unixTimestamp * 1000); 
+  
+            return dateObj.getFullYear() + '/' + 
+                    (dateObj.getMonth() + 1) + '/' + 
+                    dateObj.getDate() + ' ' + 
+                    dateObj.getHours() + ':' + 
+                    dateObj.getMinutes();
+            
+        } 
+
+
+        </script>
+</head>
+
+<body onload="GetMap();">
+        <div>
+                <p>{{ message }}</p>
+        </div>
+    <div>
+        <p>All Vehicles Running Defined in MBTA</p>
+        <p>Click on any running vehicle to see more details.</p>
+        <div id="myMap" style="position:relative;width:600px;height:400px;"></div>
+    </div>
+
+    <div>
+            
+
+    </div>
+
+</body>
+
+</html>

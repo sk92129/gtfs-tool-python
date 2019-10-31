@@ -1,0 +1,155 @@
+service_id,service_description,service_schedule_name,service_schedule_type,service_schedule_typicality
+BUS419-1-Wdy-02,Weekday schedule,Weekday,Weekday,1
+BUS419-10-Wdy-02,Weekday schedule,Weekday,Weekday,1
+BUS419-11-Sa-02,Saturday schedule,Saturday,Saturday,1
+BUS419-12-Su-02,Sunday schedule,Sunday,Sunday,1
+BUS419-13-Wdy-02,Weekday schedule,Weekday,Weekday,1
+BUS419-14-Sa-02,Saturday schedule,Saturday,Saturday,1
+BUS419-15-Su-02,Sunday schedule,Sunday,Sunday,1
+BUS419-16-Su-02,Holiday (Sunday schedule),Holiday,Sunday,3
+BUS419-17-Wdy-02,Weekday schedule (no school),Weekday (no school),Weekday,1
+BUS419-18-Wdy-02,Weekday schedule,Weekday,Weekday,1
+BUS419-19-Sa-02,Saturday schedule,Saturday,Saturday,1
+BUS419-1A-Wdy-02,Weekday schedule (no school),Weekday (no school),Weekday,1
+BUS419-2-Wdy-02,Weekday schedule (no school),Weekday (no school),Weekday,1
+BUS419-3-Wdy-02,Weekday schedule,Weekday,Weekday,1
+BUS419-4-Sa-02,Saturday schedule,Saturday,Saturday,1
+BUS419-5-Su-02,Sunday schedule,Sunday,Sunday,1
+BUS419-6-Su-02,Holiday (Sunday schedule),Holiday,Sunday,3
+BUS419-7-Wdy-02,Weekday schedule (no school),Weekday (no school),Weekday,1
+BUS419-8-Wdy-02,Weekday schedule,Weekday,Weekday,1
+BUS419-9-Sa-02,Saturday schedule,Saturday,Saturday,1
+BUS419-A-Su-02,Sunday schedule,Sunday,Sunday,1
+BUS419-B-Su-02,Holiday (Sunday schedule),Holiday,Sunday,3
+BUS419-C-Wdy-02,Weekday schedule (no school),Weekday (no school),Weekday,1
+BUS419-D-Wdy-02,Weekday schedule,Weekday,Weekday,1
+BUS419-E-Wdy-02,Weekday schedule (no school),Weekday (no school),Weekday,1
+BUS419-F-Wdy-02,Weekday schedule,Weekday,Weekday,1
+BUS419-G-Sa-02,Saturday schedule,Saturday,Saturday,1
+BUS419-H-Su-02,Sunday schedule,Sunday,Sunday,1
+BUS419-I-Su-02,Holiday (Sunday schedule),Holiday,Sunday,3
+BUS419-J-Wdy-02,Weekday schedule (no school),Weekday (no school),Weekday,1
+BUS419-K-Wdy-02,Weekday schedule,Weekday,Weekday,1
+BUS419-L-Sa-02,Saturday schedule,Saturday,Saturday,1
+BUS419-M-Su-02,Sunday schedule,Sunday,Sunday,1
+BUS419-N-Su-02,Holiday (Sunday schedule),Holiday,Sunday,3
+BUS419-O-Wdy-02,Weekday schedule (no school),Weekday (no school),Weekday,1
+BUS419-P-Wdy-02,Weekday schedule,Weekday,Weekday,1
+BUS419-Q-Sa-02,Saturday schedule,Saturday,Saturday,1
+BUS419-R-Su-02,Sunday schedule,Sunday,Sunday,1
+BUS419-S-Su-02,Holiday (Sunday schedule),Holiday,Sunday,3
+BUS419-T-Wdy-02,Weekday schedule (no school),Weekday (no school),Weekday,1
+BUS419-U-Su-02,Holiday (Sunday schedule),Holiday,Sunday,3
+BUS419-V-Wdy-02,Weekday schedule (no school),Weekday (no school),Weekday,1
+BUS419-W-Wdy-02,Weekday schedule (no school),Weekday (no school),Weekday,1
+BUS419-X-Wdy-02,Weekday schedule,Weekday,Weekday,1
+BUS419-Y-Sa-02,Saturday schedule,Saturday,Saturday,1
+BUS419-Z-Su-02,Sunday schedule,Sunday,Sunday,1
+Boat-F1-Frd,Friday schedule,Friday,Weekday,1
+Boat-F1-FrdSmr,Friday schedule (summer),Friday,Weekday,1
+Boat-F1-Snd,Sunday schedule,Sunday,Sunday,1
+Boat-F1-Std,Saturday schedule,Saturday,Saturday,1
+Boat-F1-Wkd,Weekday schedule,Weekday,Weekday,1
+Boat-F1-WkdSmr,Weekday schedule (summer),Weekday,Weekday,1
+Boat-F4-Snd,Sunday schedule,Sunday,Sunday,1
+Boat-F4-Std,Saturday schedule,Saturday,Saturday,1
+Boat-F4-Wkd,Weekday schedule,Weekday,Weekday,1
+CR-Foxboro-Su-1300,Special event schedule,Special event,Other,2
+CR-Foxboro-Su-1625,Special event schedule,Special event,Other,2
+CR-Foxboro-Su-2020,Special event schedule,Special event,Other,2
+CR-Foxboro-Su-2030,Special event schedule,Special event,Other,2
+CR-Foxboro-SuExtra-1300,Special event schedule,Special event,Other,2
+CR-Sa-Fairmount-Spr-19,Saturday schedule,Saturday,Saturday,1
+CR-Sa-Fitchburg-Spr-19,Saturday schedule,Saturday,Saturday,1
+CR-Sa-Fitchburg-Spr-19-FtgGLX,Saturday schedule,Saturday,Saturday,4
+CR-Sa-Franklin-Spr-19,Saturday schedule,Saturday,Saturday,1
+CR-Sa-Greenbush-Spr-19,Saturday schedule,Saturday,Saturday,1
+CR-Sa-Haverhill-Spr-19,Saturday schedule,Saturday,Saturday,1
+CR-Sa-Kingston-Spr-19,Saturday schedule,Saturday,Saturday,1
+CR-Sa-Lowell-Spr-19,Saturday schedule,Saturday,Saturday,1
+CR-Sa-Middleborough-Spr-19,Saturday schedule,Saturday,Saturday,1
+CR-Sa-Needham-Spr-19,Saturday schedule,Saturday,Saturday,1
+CR-Sa-Newburyport-Spr-19,Saturday schedule,Saturday,Saturday,1
+CR-Sa-Providence-Spr-19,Saturday schedule,Saturday,Saturday,1
+CR-Sa-Worcester-Spr-19,Saturday schedule,Saturday,Saturday,1
+CR-Su-Fairmount-Spr-19,Sunday schedule,Sunday,Sunday,1
+CR-Su-Fitchburg-Spr-19,Sunday schedule,Sunday,Sunday,1
+CR-Su-Fitchburg-Spr-19-FtgGLX,Sunday schedule,Sunday,Sunday,4
+CR-Su-Franklin-Spr-19,Sunday schedule,Sunday,Sunday,1
+CR-Su-Greenbush-Spr-19,Sunday schedule,Sunday,Sunday,1
+CR-Su-Haverhill-Spr-19,Sunday schedule,Sunday,Sunday,1
+CR-Su-Kingston-Spr-19,Sunday schedule,Sunday,Sunday,1
+CR-Su-Lowell-Spr-19,Sunday schedule,Sunday,Sunday,1
+CR-Su-Middleborough-Spr-19,Sunday schedule,Sunday,Sunday,1
+CR-Su-Newburyport-Spr-19,Sunday schedule,Sunday,Sunday,1
+CR-Su-Providence-Spr-19,Sunday schedule,Sunday,Sunday,1
+CR-Su-Worcester-Spr-19,Sunday schedule,Sunday,Sunday,1
+CR-Wdy-Fairmount-Spr-19,Weekday schedule,Weekday,Weekday,1
+CR-Wdy-Fitchburg-Spr-19,Weekday schedule,Weekday,Weekday,1
+CR-Wdy-Franklin-Spr-19,Weekday schedule,Weekday,Weekday,1
+CR-Wdy-Greenbush-Spr-19,Weekday schedule,Weekday,Weekday,1
+CR-Wdy-Haverhill-Spr-19,Weekday schedule,Weekday,Weekday,1
+CR-Wdy-Haverhill-Spr-19-BllMlnCnr,Weekday schedule,Weekday,Weekday,4
+CR-Wdy-Kingston-Spr-19,Weekday schedule,Weekday,Weekday,1
+CR-Wdy-Lowell-Spr-19,Weekday schedule,Weekday,Weekday,1
+CR-Wdy-Middleborough-Spr-19,Weekday schedule,Weekday,Weekday,1
+CR-Wdy-Needham-Spr-19,Weekday schedule,Weekday,Weekday,1
+CR-Wdy-Newburyport-Spr-19,Weekday schedule,Weekday,Weekday,1
+CR-Wdy-Providence-Spr-19,Weekday schedule,Weekday,Weekday,1
+CR-Wdy-Worcester-Spr-19,Weekday schedule,Weekday,Weekday,1
+CRSaFranklinSpr19FrgPrkRdlFrgPrkSthStn,Saturday schedule,Saturday,Saturday,4
+CRSuFranklinSpr19FrgPrkRdlFrgPrkSthStn,Sunday schedule,Sunday,Sunday,4
+LRV219-1-Wdy-01,Weekday schedule,Weekday,Weekday,1
+LRV419-1-RedSox-01-CldCrlStMrNwnHgsKnr,Weekday schedule,Weekday,Weekday,4
+LRV419-1-RedSox-01-NwnHgsKnr,Weekday schedule,Weekday,Weekday,4
+LRV419-1-Wdy-01,Weekday schedule,Weekday,Weekday,1
+LRV419-1-Wdy-01-BbkBCNwnHgsKnr,Weekday schedule,Weekday,Weekday,4
+LRV419-1-Wdy-01-NwnHgsKnr,Weekday schedule,Weekday,Weekday,4
+LRV419-2-Sa-01,Saturday schedule,Saturday,Saturday,1
+LRV419-2-Sa-01-BbkBCNwnHgsKnrW,Saturday schedule,Saturday,Saturday,4
+LRV419-2-Sa-01-CldCrlStMr,Saturday schedule,Saturday,Saturday,4
+LRV419-2-Sa-01-NwnHgsKnrW,Saturday schedule,Saturday,Saturday,4
+LRV419-3-Su-01,Sunday schedule,Sunday,Sunday,1
+LRV419-3-Su-01-BbkBCNwnHgsKnrW,Sunday schedule,Sunday,Sunday,4
+LRV419-3-Su-01-CldCrlStMr,Sunday schedule,Sunday,Sunday,4
+LRV419-3-Su-01-NwnHgsKnrW,Sunday schedule,Sunday,Sunday,4
+LRV419-4-Su-01,Holiday (Sunday schedule),Holiday,Sunday,3
+LRV419-5-Wdy-01,Weekday schedule,Weekday,Weekday,1
+LRV419-5-Wdy-01-Mtn,Weekday schedule,Weekday,Weekday,4
+LRV419-6-Sa-01,Saturday schedule,Saturday,Saturday,1
+LRV419-6-Sa-01-Mtn,Saturday schedule,Saturday,Saturday,4
+LRV419-7-Su-01,Sunday schedule,Sunday,Sunday,1
+LRV419-7-Su-01-Mtn,Sunday schedule,Sunday,Sunday,4
+LRV419-8-Su-01,Holiday (Sunday schedule),Holiday,Sunday,3
+PRIV419-1-Wdy-01,Weekday schedule,Weekday,Weekday,1
+PRIV419-2-Sa-01,Saturday schedule,Saturday,Saturday,1
+PRIV419-3-Wdy-01,Weekday schedule (no school),Weekday (no school),Weekday,1
+PRIV419-4-Wdy-01,Weekday schedule,Weekday,Weekday,1
+PRIV419-5-Sa-01,Saturday schedule,Saturday,Saturday,1
+PRIV419-6-Su-01,Sunday schedule,Sunday,Sunday,1
+PRIV419-7-Su-01,Holiday (Sunday schedule),Holiday,Sunday,3
+PRIV419-8-Wdy-01,Weekday schedule (no school),Weekday (no school),Weekday,1
+PRIV419-9-Wdy-01,Weekday schedule,Weekday,Weekday,1
+PRIV419-A-Sa-01,Saturday schedule,Saturday,Saturday,1
+PRIV419-B-Su-01,Sunday schedule,Sunday,Sunday,1
+PRIV419-C-Su-01,Holiday (Sunday schedule),Holiday,Sunday,3
+PRIV419-D-Wdy-01,Weekday schedule (no school),Weekday (no school),Weekday,1
+RTL419-1-Wdy-01,Weekday schedule,Weekday,Weekday,1
+RTL419-1-Wdy-01-BlNBwn,Weekday schedule,Weekday,Weekday,4
+RTL419-1-Wdy-01-OrtHgsWnd,Weekday schedule,Weekday,Weekday,4
+RTL419-2-Sa-01,Saturday schedule,Saturday,Saturday,1
+RTL419-3-Su-01,Sunday schedule,Sunday,Sunday,1
+RTL419-4-Su-01,Holiday (Sunday schedule),Holiday,Sunday,3
+RTL419-5-Wdy-01,Weekday schedule,Weekday,Weekday,1
+RTL419-5-Wdy-01-FrtHlsRgs,Weekday schedule,Weekday,Weekday,4
+RTL419-5-Wdy-01-OkGrvSln,Weekday schedule,Weekday,Weekday,4
+RTL419-5-Wdy-01-OkGrvWln,Weekday schedule,Weekday,Weekday,4
+RTL419-6-Sa-01,Saturday schedule,Saturday,Saturday,1
+RTL419-6-Sa-01-FrtHlsRgs,Saturday schedule,Saturday,Saturday,4
+RTL419-7-Su-01,Sunday schedule,Sunday,Sunday,1
+RTL419-7-Su-01-FrtHlsRgs,Sunday schedule,Sunday,Sunday,4
+RTL419-8-Su-01,Holiday (Sunday schedule),Holiday,Sunday,3
+RTL419-9-Wdy-01,Weekday schedule,Weekday,Weekday,1
+RTL419-A-Sa-01,Saturday schedule,Saturday,Saturday,1
+RTL419-B-Su-01,Sunday schedule,Sunday,Sunday,1
+RTL419-C-Su-01,Holiday (Sunday schedule),Holiday,Sunday,3

@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>CMU Final Project - MBTA GTFS transit data</title>
+  </head>
+  <body>
+    <div>
+      <p>Trip Choices (Sample -- there are too many to load )</p>
+    </div>
+    <form method="post" action="{{ url_for('find_trip')}}">
+    <div>
+
+      <div>
+        <select name="tripid" id = "tripid">
+          {% for trip in all_trips %}
+            <option value="{{trip.get_id()}}"> {{trip.get_id()}} -  {{trip.get_sign()}} </option>
+          {% endfor %}
+          </select>
+
+      </div> 
+    </div>
+
+    <div>
+        <div><input type=submit value="Find"></div>
+    </div>
+    </form>
+  </body>
+</html>

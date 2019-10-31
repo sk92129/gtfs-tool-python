@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>CMU Final Project - MBTA GTFS transit data</title>
+    <meta charset="utf-8" />
+
+
+    <script type='text/javascript'
+    src='http://www.bing.com/api/maps/mapcontrol?callback=GetMap&key=ApNH0a_u_cgOqvisHXaEMdsAeQyMVAG1rvbhLfJ_Hc4atoHHJrsYrTDMJQRNbiQa' 
+    async defer></script>
+
+    <script type='text/javascript'>
+       var map, infobox;
+       function GetMap()
+       {
+           var key='ApNH0a_u_cgOqvisHXaEMdsAeQyMVAG1rvbhLfJ_Hc4atoHHJrsYrTDMJQRNbiQa';
+
+           var mapOption={credentials:key,center: new Microsoft.Maps.Location(42.360261, -71.095189), zoom :12};
+           map = new Microsoft.Maps.Map('#myMap', mapOption);
+
+           //Create an infobox at the center of the map but don't show it.
+           infobox = new Microsoft.Maps.Infobox(map.getCenter(), {
+               visible: false
+               });            
+   
+           //Assign the infobox to a map instance.
+           infobox.setMap(map);
+            var loc = new Microsoft.Maps.Location(
+                {{ trip_data.get_stop_lat() }} ,
+                {{ trip_data.get_stop_lon() }});
+
+            var pin = new Microsoft.Maps.Pushpin(loc);
+            map.entities.push(pin);
+       }
+
+       
+       </script>
+
+
+  </head>
+  <body  onload="GetMap();">
+    <div>
+      <p>{{ message }}</p>
+    </div>
+   Find results
+   <div>
+    <p> Stop Name: {{ trip_data.get_stop_name() }}</p>
+  </div>
+
+  <div>
+    <p>latitude, longitude: {{ trip_data.get_stop_lat() }} , {{ trip_data.get_stop_lon() }}</p>
+  </div>
+  <div>
+    <p> Head Sign:  {{ trip_data.get_headsign() }} </p>
+  </div>
+  <div>
+    <p>route id:  {{ trip_data.get_route_id() }} </p>
+  </div>
+
+  <div>
+      <p>Position of current vehicle and its trip</p>
+      <div id="myMap" style="position:relative;width:600px;height:400px;"></div>
+  </div>
+
+  </body>
+</html>
